@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+
+}
+/* 
+body {
+    height: 3449px;
+
+} */
+
+#body {
+
+    height: 100vh;
+}
+
+
+/* navbar */
+#navbar {
+    background-color: palevioletred;
+    display: flex;
+    width: 100%;
+    height: 100px;
+
+}
+
+
+
+#nav {
+    padding-left: 700px;
+    padding-right: 50px;
+    padding-top: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#nav ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+
+}
+
+#nav li {
+    list-style: none;
+
+}
+
+#nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 3px 30px;
+}
+
+#nav a:hover, :active {
+    position: relative;
+    text-decoration: underline;
+
+}
+
+
+/* logo */
+#logo {
+    width: 2%;
+    display: block;
+    margin: auto;
+}
+
+#logo img {
+    height: 80px;
+
+}
+
+
+
+#form{
+    flex-direction: column;
+    display: flex;
+   align-items: center;
+    font-size: 40px;
+    height: 90vh;
+    width: 100%;
+    background-color:  palevioletred;
+}
+
+#form-item{
+    flex-direction: column;
+    display: flex;
+   align-items: center;
+    font-size: 40px;
+    height: 800px;
+    margin-top: 20px;
+    width: 800px;
+    background-color:  palevioletred;
+}
+
+
+h1{
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+
+
+#login{
+    background-color: rgb(185, 78, 185);
+    height: 300px;
+    display: block;
+    width: 100%;
+    flex-direction: column;
+    margin: 0px auto;
+    margin-top: 800px;
+    border: 3px solid red;
+    padding: 3px 500px;
+}
+
+input, textarea{
+    display: block;
+    width: 330px;
+    padding: 3px px;
+    display: block;
+    font-size: 20px;
+    margin: 10px ;
+    color: black;
+}
+
+#btn{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 4px;
+    background-color: rgb(163, 53, 53);
+    cursor: pointer;
+}
+
+
+
+
+
+
+#footer {
+    height: 150px;
+    background-color: rgb(170, 157, 157);
+    border: 2px solid red;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+h2{
+    font-size: 35px;
+}
